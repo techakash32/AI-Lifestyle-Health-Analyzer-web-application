@@ -11,7 +11,7 @@ app.secret_key = "dev-secret-change-in-prod"
 DB_CONFIG = {
     "host":     "localhost",
     "user":     "root",
-    "password": "1234",
+    "password": "____",
     "database": "health_analyzer",
     "cursorclass": pymysql.cursors.DictCursor,
 }

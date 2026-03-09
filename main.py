@@ -8,7 +8,7 @@ import joblib
 from sqlalchemy import create_engine
 
 # ── Connect to MySQL ───────────────────────────────────────────────────────────
-engine = create_engine('mysql+mysqlconnector://root:1234@localhost/health_db')
+engine = create_engine('mysql+mysqlconnector://root:your_password@localhost/health_db')
 
 # ── Load dataset ───────────────────────────────────────────────────────────────
 query = "SELECT * FROM health_data"
